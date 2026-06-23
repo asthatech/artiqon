@@ -1,0 +1,57 @@
+.instagram-section{
+    padding:120px 8%;
+    background:#f8f2eb;
+    text-align:center;
+}
+
+.instagram-heading span{
+    text-transform:uppercase;
+    letter-spacing:3px;
+    color:#b9806b;
+    font-size:13px;
+}
+
+.instagram-heading h2{
+    font-family:"Cormorant Garamond", serif;
+    font-size:4rem;
+    margin:15px 0;
+    color:#3d2d28;
+}
+
+.instagram-heading p{
+    max-width:600px;
+    margin:auto;
+    color:#6d5b53;
+    line-height:1.8;
+}
+
+.insta-grid{
+    margin-top:60px;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.insta-card{
+    overflow:hidden;
+    border-radius:25px;
+}
+
+.insta-card img{
+    width:100%;
+    transition:.5s;
+}
+
+.insta-card:hover img{
+    transform:scale(1.08);
+}
+
+.instagram-btn{
+    display:inline-block;
+    margin-top:50px;
+    background:#b9806b;
+    color:white;
+    padding:16px 35px;
+    border-radius:50px;
+    text-decoration:none;
+}

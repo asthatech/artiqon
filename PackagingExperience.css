@@ -1,0 +1,58 @@
+.packaging{
+    padding:120px 8%;
+    display:flex;
+    gap:80px;
+    align-items:center;
+    background:white;
+}
+
+.packaging-left{
+    flex:1;
+}
+
+.packaging-left span{
+    color:#b9806b;
+    text-transform:uppercase;
+    letter-spacing:3px;
+}
+
+.packaging-left h2{
+    font-family:"Cormorant Garamond",serif;
+    font-size:4rem;
+    margin:20px 0;
+    color:#3d2d28;
+}
+
+.packaging-left p{
+    line-height:1.9;
+    color:#6d5b53;
+    margin-bottom:30px;
+}
+
+.packaging-left ul{
+    list-style:none;
+}
+
+.packaging-left li{
+    margin:20px 0;
+    color:#5d4b45;
+}
+
+.packaging-right{
+    flex:1;
+}
+
+.packaging-right img{
+    width:100%;
+    border-radius:30px;
+}
+
+@media(max-width:900px){
+    .packaging{
+        flex-direction:column;
+    }
+
+    .packaging-left h2{
+        font-size:3rem;
+    }
+}

@@ -1,0 +1,56 @@
+.memory-wall{
+    padding:120px 8%;
+    background:#fffaf6;
+}
+
+.memory-heading{
+    text-align:center;
+    margin-bottom:70px;
+}
+
+.memory-heading span{
+    color:#b9806b;
+    letter-spacing:3px;
+    text-transform:uppercase;
+    font-size:13px;
+}
+
+.memory-heading h2{
+    font-family:"Cormorant Garamond", serif;
+    font-size:4rem;
+    color:#3d2d28;
+    margin:20px 0;
+}
+
+.memory-heading p{
+    max-width:650px;
+    margin:auto;
+    line-height:1.8;
+    color:#6d5b53;
+}
+
+.masonry{
+    columns:3 300px;
+    column-gap:25px;
+}
+
+.memory-card{
+    margin-bottom:25px;
+    break-inside:avoid;
+    overflow:hidden;
+    border-radius:25px;
+    background:white;
+    padding:12px;
+    box-shadow:0 8px 30px rgba(0,0,0,.05);
+    transition:.3s;
+}
+
+.memory-card:hover{
+    transform:translateY(-8px);
+}
+
+.memory-card img{
+    width:100%;
+    border-radius:18px;
+    display:block;
+}

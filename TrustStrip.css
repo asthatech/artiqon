@@ -1,0 +1,22 @@
+.trust-strip{
+    background:#fff;
+    padding:35px 8%;
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:20px;
+    border-top:1px solid #eee;
+    border-bottom:1px solid #eee;
+}
+
+.trust-item{
+    text-align:center;
+    color:#5d4b45;
+    font-weight:500;
+    font-size:1rem;
+}
+
+@media(max-width:768px){
+    .trust-strip{
+        grid-template-columns:repeat(2,1fr);
+    }
+}
